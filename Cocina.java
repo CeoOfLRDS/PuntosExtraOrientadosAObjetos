@@ -12,7 +12,7 @@ public class Cocina {
 
     public int hornear(double temp, int tiempoPrep) {
         this.tiempoPrep = tiempoPrep;
-        System.out.println("Horneando a " + temp + "°C durante " + tiempoPrep + " minutos.");
+        System.out.println("Horneando a " + temp + "oC durante " + tiempoPrep + " minutos.");
         return this.tiempoPrep;
     }
 
